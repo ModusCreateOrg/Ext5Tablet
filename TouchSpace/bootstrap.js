@@ -1761,7 +1761,6 @@ Ext.setVersion("GridChart", "1.0.0");
  * metadata-driven class system features
  */
 
-Ext.Loader.loadScriptFile('../ExtCordova/app.js', Ext.emptyFn);
 
 
 
