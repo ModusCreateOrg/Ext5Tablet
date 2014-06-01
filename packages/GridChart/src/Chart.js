@@ -8,7 +8,7 @@ Ext.define('GC.Chart', {
     config : {
         animate      : true,
         interactions : 'itemhighlight',
-        insetPadding : 40,
+        insetPadding : 20,
         background   : 'white',
         flipXY       : true,
 

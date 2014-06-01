@@ -10,10 +10,18 @@ Ext.define('GC.Grid', {
         itemTpl : [
             '<h1>{month}</h1>',
             '<div class="browsers">',
-                '<b>IE</b> {data1} ',
-                '<b>FF</b> {data2} ',
-                '<b>Chrome</b> {data3} ',
-                '<b>Safari</b> {data4} ',
+                '<h2>',
+                    'IE<br>',
+                    'FF<br>',
+                    'Chrome<br>',
+                    'Safari',
+                '</h2>',
+                '<aside>',
+                    '{data1}%<br>',
+                    '{data2}%<br>',
+                    '{data3}%<br>',
+                    ' {data4}%',
+                '</aside>',
              '</div>'
         ].join('')
     }
